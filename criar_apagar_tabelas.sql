@@ -87,6 +87,9 @@
     primary key (idMedico, idPaciente, idProcedimento)
  );
  
+ create table historico (
+	descricao varchar(500)
+);
 
  # apagar todas as tabelas
  /*
